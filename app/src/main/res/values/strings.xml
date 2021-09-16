@@ -1,0 +1,9 @@
+<resources>
+    <string name="app_name">Kotlin2</string>
+    <string name="godzilla">https://b1.filmpro.ru/c/816498.460x322c5020.jpg</string>
+    <string name="mothra">https://static.wikia.nocookie.net/godzilla/images/0/0e/Godzilla_King_of_the_Monsters_-_Mothra_poster_-_Clear_keyart.jpg/revision/latest/scale-to-width-down/2000?cb=20181219031630</string>
+    <string name="rodan">https://www.scified.com/articles/mike-dougherty-shares-official-rodan-concept-art-from-godzilla-2-72.jpg</string>
+    <string name="kong">https://static.wikia.nocookie.net/godzilla/images/f/f8/Kong_2021.jpg/revision/latest?cb=20210314012851</string>
+    <string name="ghidorah">https://static.wikia.nocookie.net/godzilla/images/f/f0/Godzilla_King_of_the_Monsters_-_Ghidorah_poster_-_Clear_keyart.jpg/revision/latest?cb=20181219031637</string>
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+</resources>
