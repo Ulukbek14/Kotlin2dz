@@ -7,12 +7,12 @@
 
     <fragment
         android:id="@+id/fragmentGallery"
-        android:name="com.example.kotlin2dz.fragment.SecondFragment"
+        android:name="com.example.kotlin2dz.ui.fragment.SecondFragment"
         android:label="fragment_gallery"
         tools:layout="@layout/fragment_second" />
     <fragment
         android:id="@+id/fragmentRandom"
-        android:name="com.example.kotlin2dz.fragment.RandomFragment"
+        android:name="com.example.kotlin2dz.ui.fragment.RandomFragment"
         android:label="fragment_random"
         tools:layout="@layout/fragment_random" />
 </navigation>

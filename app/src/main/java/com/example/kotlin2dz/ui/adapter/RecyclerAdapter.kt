@@ -1,4 +1,4 @@
-package com.example.kotlin2dz.adapter
+package com.example.kotlin2dz.ui.adapter
 
 import android.view.LayoutInflater
 import android.view.ViewGroup
@@ -12,15 +12,16 @@ class RecyclerAdapter():
 
     private var list: List<String> = ArrayList()
 
-    fun addList(getList: List<String>){
+    fun addList(getList: List<String>) {
         list = getList
         notifyDataSetChanged()
     }
 
-    class ViewHolder(private val binding: ItemRecyclerBinding) : RecyclerView.ViewHolder(binding.root) {
-        fun onBind(recyclerModel: String ) {
+    class ViewHolder(private val binding: ItemRecyclerBinding) :
+        RecyclerView.ViewHolder(binding.root) {
+        fun onBind(string: String) {
             Picasso.get()
-                .load(recyclerModel)
+                .load(string)
                 .resize(200, 200)
                 .centerCrop()
                 .into(binding.img)
@@ -28,7 +29,7 @@ class RecyclerAdapter():
     }
 
     override fun onCreateViewHolder(parent: ViewGroup, viewType: Int): ViewHolder {
-        binding = ItemRecyclerBinding.inflate(LayoutInflater.from(parent.context),parent,false)
+        binding = ItemRecyclerBinding.inflate(LayoutInflater.from(parent.context), parent, false)
         return ViewHolder(binding)
     }
 
